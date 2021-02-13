@@ -27,9 +27,7 @@ def alphabet_position(text):
     while ("" in listNew): 
         listNew.remove("") #remove empty elements from list
     #print(listNew) #check on what's going on
-        
-    #print(*listDigits)
-    #print(*listNew)
+    
     sent_str = ""
     for i in listNew:
         sent_str += str(i) + " "
